@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>emagin-jfxcore-mobile-integration</name>
+  <comment>Multiplatform JAVA Application. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>emagin-core-api</project>
+    <project>emagin-jfxcore-viewdefinition</project>
+    <project>emagin-core-ioc</project>
+    <project>emagin-jfxcore-engine</project>
+    <project>emagin-core-i18n</project>
+    <project>emagin-core-utils</project>
+    <project>emagin-jfxcore-preloader</project>
+    <project>emagin-jfxcore11</project>
+    <project>emagin-core-bridge</project>
+    <project>emagin-jfxcore-components</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

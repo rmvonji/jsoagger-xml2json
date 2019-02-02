@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.nexitia.emaginplatform</groupId>
+		<artifactId>emagin-mobile</artifactId>
+		<version>11.0.3-SNAPSHOT</version>
+	</parent>
+	<artifactId>emagin-jfxcore-mobile-integration</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.nexitia.emaginplatform</groupId>
+			<artifactId>emagin-core-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nexitia.emaginplatform</groupId>
+			<artifactId>emagin-core-ioc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nexitia.emaginplatform</groupId>
+			<artifactId>emagin-jfxcore-engine</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.nexitia.emaginplatform</groupId>
+			<artifactId>emagin-jfxcore-components</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+	</dependencies>
+</project>
